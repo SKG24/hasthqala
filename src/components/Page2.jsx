@@ -1,6 +1,6 @@
 import React from "react";
 import img_9 from "./images/img_9.JPG";
-import img_8 from "./images/img_8.jpg";
+import img_8 from "./images/img_8.JPG";
 
 function Page2() {
   return (
