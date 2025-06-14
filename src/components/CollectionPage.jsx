@@ -1,5 +1,5 @@
 import React from "react";
-import bg_2 from "./images/bg_2_3.JPG";
+import bg_2 from "./images/bg_2_3.jpg";
 import bg_2_4 from "./images/bg_2_2.jpg";
 import bg_3_1 from "./images/bg_3_1.jpg";
 import bg_3_2 from "./images/bg_3_2.jpg";
