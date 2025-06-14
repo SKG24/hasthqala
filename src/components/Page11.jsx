@@ -1,5 +1,5 @@
 import React from "react";
-import bg_1 from "./images/bg_1.JPG"; // Adjust the path as necessary
+import bg_1 from "./images/bg_1.jpg"; // Adjust the path as necessary
 
 function Page11() {
   return (
