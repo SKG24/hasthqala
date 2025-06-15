@@ -1,12 +1,55 @@
-# React + Vite
+# Hasthqala 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**An art showcase website designed to present handmade and unique products in a modern, responsive, and interactive way.**  
+Built using **React**, **Tailwind CSS**, and **Locomotive Scroll**, Hasthqala aims to provide a smooth product browsing experience optimized for both desktop and mobile users.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Preview
 
-## Expanding the ESLint configuration
+👉 [View Website](#) *(Add your live URL here)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **Responsive UI** tailored separately for **desktop** and **mobile** views.
+- **Locomotive Scroll** integration for:
+  - Smooth parallax scrolling
+  - Animated text scroll effects
+- **Conditional rendering** to optimize performance:
+  - Mobile view loads only **essential pages**
+  - Desktop view includes **full features**, animations, and transitions
+- Built with **clean architecture** and **component reusability** in mind
+
+---
+
+## 🛠 Tech Stack
+
+| Technology       | Usage                                   |
+|------------------|------------------------------------------|
+| **React.js**     | Frontend Framework                      |
+| **Tailwind CSS** | Utility-first CSS for responsive design |
+| **Locomotive Scroll** | Scroll animations and parallax effects |
+| **JavaScript (ES6+)** | Scripting and logic                  |
+
+---
+
+## 📱 Device-specific Rendering
+
+Hasthqala intelligently adjusts content based on the user's device:
+
+### 📱 Mobile
+- Simplified interface for speed and usability
+- Excludes heavy animations and non-critical pages
+- Improves performance on low-resource devices
+
+### 💻 Desktop
+- Full feature set with:
+  - Parallax animations
+  - Scroll-based transitions
+  - Rich product showcase layout
+
+Custom functions are used to **detect device type** and **conditionally load views and features**, improving both performance and user experience.
+
+
